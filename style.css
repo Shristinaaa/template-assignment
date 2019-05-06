@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    margin-bottom: 45px;
+}
+ul li
+{
+    list-style: none;
+    float: left;
+    color: white;
+    width:30px;
+}
+
+ul li1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 280px;
+    font-family: Helvetica, sans-serif;
+
+
+}
+ul li2{
+    float: right;
+    font-family: "metropolis-medium", sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+   
+}
+
+.nav ul li{
+    list-style: none;
+    width:120px;
+    display: inline;
+    margin-left: 75px;
+    font-family: "metropolis-medium", sans-serif;
+    margin-bottom: 50px;
+}
+
+.nav ul li:hover{
+    color: beige;
+}
+
+.music{
+    margin-top:100px;
+    height: 564px;
+    background-image: url(featured-guitarman.jpg);
+    display: block;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    margin-right: 300px;
+    opacity: 0.4;
+}
+.music:hover{
+    opacity:0.1;
+}
+
+
+.music h1{
+    padding-top: 400px;
+    padding-left: 100px;
+    padding-right: 150px;
+    font-size: 40px;
+}
+
+.music h1:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+
+
