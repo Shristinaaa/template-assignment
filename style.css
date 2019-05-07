@@ -1,0 +1,213 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    margin-bottom: 45px;
+}
+ul li
+{
+    list-style: none;
+    float: left;
+    color: white;
+    width:30px;
+}
+
+ul li1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 280px;
+    font-family: Helvetica, sans-serif;
+
+
+}
+ul li2{
+    float: right;
+    font-family: "metropolis-medium", sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+   
+}
+.search{
+    cursor:pointer ;
+}
+.nav ul li{
+    list-style: none;
+    width:120px;
+    display: inline;
+    margin-left: 75px;
+    font-family: "metropolis-medium", sans-serif;
+    margin-bottom: 50px;
+}
+
+.nav ul li:hover{
+    color: beige;
+}
+
+
+.music img{
+    background-size: cover;
+    margin-right: 150px;
+    opacity: 0.4;
+    width: 60%;
+
+}
+.music img:hover{
+    opacity:0.1;
+    color: #900;
+
+}
+.main{
+    margin-bottom: 20px;
+}
+.main h1{
+    position: absolute;
+    left: 45px;
+    top: 583px;
+    width: 50%;
+    font-size: 37px;
+    font-weight:bold;
+}
+.main a{
+    position: absolute;
+    left: 48px;
+    top: 581px;
+    background-color: #01aef0;
+    border: none;
+    padding:3px 8px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+}
+/*.main-left {
+    float: left;
+}*/
+.music-side{
+    float: right;
+    position: absolute;
+    top:179px;
+    right :-127px;
+    height: 282px;
+    width: 49%;
+}
+.music-side h1{
+    position: absolute;
+    left:53px;
+    top:133px;
+    width:50%;
+}
+
+.music-side a{
+    position: absolute;
+    left: 56px;
+    top: 122px;
+    background-color: green;
+    border: none;
+    padding:3px 8px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.music-beetle{
+    float: right;
+    position: absolute;
+    top:455px;
+    right :-128px;
+    height: 282px;
+    width: 50%;
+}
+.music-beetle h1{
+    position: absolute;
+    left:53px;
+    top:181px;
+    width: 50%;
+}
+
+.music-beetle a{
+    position: absolute;
+    left: 56px;
+    top: 175px;
+    background-color: green;
+    border: none;
+    padding:3px 8px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.container{
+    background-color: beige;
+    margin-top: 50px;
+    display: flex;
+}
+
+.container1{
+    margin-top: 50px;
+    margin-left: 30px;
+    width:31.5%;
+    color:black;
+    background-color: white;
+}
+
+.container1 p,h2,a{
+    margin-left: 50px;
+}
+
+p1{
+    color:blue;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.container1:hover, .container2:hover, .container3:hover{
+    opacity: 0.4;
+}
+
+.container2{
+    background-color: white;
+    color:black;
+    width:30%;
+    margin-left:20px;
+    margin-top: 49px;
+    height: 500px;
+}
+
+.container2 h2{
+    text-align: center;
+    padding-right: 60px;
+}
+
+.container2 img{
+    width:40%;
+    margin-left:85px;
+}
+
+
+cite{
+    float: right;
+    margin-right: 50px;
+}
+
+.container3{
+    margin-left:20px;
+    margin-top: 49px;
+    background-color: white;
+    color:black;
+    width:31.5%;
+}
+.container3 p,h2{
+    margin-left: 50px;
+}
+
+
+
+
+
+
