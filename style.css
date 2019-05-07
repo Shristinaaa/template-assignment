@@ -29,7 +29,9 @@ ul li2{
     margin-right: 20px;
    
 }
-
+.search{
+    cursor:pointer ;
+}
 .nav ul li{
     list-style: none;
     width:120px;
@@ -43,33 +45,102 @@ ul li2{
     color: beige;
 }
 
-.music{
-    margin-top:100px;
-    height: 564px;
-    background-image: url(featured-guitarman.jpg);
-    display: block;
-    display: block;
+
+.music img{
     background-size: cover;
-    background-position: center;
-    margin-right: 300px;
+    margin-right: 150px;
     opacity: 0.4;
+    width: 60%;
+
 }
-.music:hover{
+.music img:hover{
     opacity:0.1;
+    color: #900;
+
+}
+.main-left{
+    position: relative;
+
+}
+.main h1{
+    position: absolute;
+    left: 45px;
+    top: 583px;
+    width: 50%;
+    font-size: 37px;
+    font-weight:bold;
+}
+.main a{
+    position: absolute;
+    left: 48px;
+    top: 581px;
+    background-color: #01aef0;
+    border: none;
+    padding:3px 8px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.main-left {
+    float: left;
+}
+.music-side{
+    float: right;
+    position: absolute;
+    top:177px;
+    right :-257px;
+    height: 282px;
+    width: 60%;
+}
+.music-side h1{
+    position: absolute;
+    left:53px;
+    top:181px;
+    width:50%;
 }
 
-
-.music h1{
-    padding-top: 400px;
-    padding-left: 100px;
-    padding-right: 150px;
-    font-size: 40px;
+.music-side a{
+    position: absolute;
+    left: 56px;
+    top: 175px;
+    background-color: green;
+    border: none;
+    padding:3px 8px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
-.music h1:hover{
-    color: aqua;
+.music-beetle{
+    float: right;
+    position: absolute;
+    top:500px;
+    right :-257px;
+    height: 282px;
+    width: 60%;
+}
+.music-beetle h1{
+    position: absolute;
+    left:53px;
+    top:181px;
+    width: 50%;
 }
 
+.music-beetle a{
+    position: absolute;
+    left: 56px;
+    top: 175px;
+    background-color: green;
+    border: none;
+    padding:3px 8px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
 
 
 
