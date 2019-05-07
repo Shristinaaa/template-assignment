@@ -58,9 +58,8 @@ ul li2{
     color: #900;
 
 }
-.main-left{
-    position: relative;
-
+.main{
+    margin-bottom: 20px;
 }
 .main h1{
     position: absolute;
@@ -82,28 +81,28 @@ ul li2{
     text-decoration: none;
     font-weight: 600;
 }
-.main-left {
+/*.main-left {
     float: left;
-}
+}*/
 .music-side{
     float: right;
     position: absolute;
-    top:177px;
-    right :-257px;
+    top:179px;
+    right :-127px;
     height: 282px;
-    width: 60%;
+    width: 49%;
 }
 .music-side h1{
     position: absolute;
     left:53px;
-    top:181px;
+    top:133px;
     width:50%;
 }
 
 .music-side a{
     position: absolute;
     left: 56px;
-    top: 175px;
+    top: 122px;
     background-color: green;
     border: none;
     padding:3px 8px;
@@ -116,10 +115,10 @@ ul li2{
 .music-beetle{
     float: right;
     position: absolute;
-    top:500px;
-    right :-257px;
+    top:455px;
+    right :-128px;
     height: 282px;
-    width: 60%;
+    width: 50%;
 }
 .music-beetle h1{
     position: absolute;
@@ -142,6 +141,70 @@ ul li2{
 
 }
 
+.container{
+    background-color: beige;
+    margin-top: 50px;
+    display: flex;
+}
+
+.container1{
+    margin-top: 50px;
+    margin-left: 30px;
+    width:31.5%;
+    color:black;
+    background-color: white;
+}
+
+.container1 p,h2,a{
+    margin-left: 50px;
+}
+
+p1{
+    color:blue;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.container1:hover, .container2:hover, .container3:hover{
+    opacity: 0.4;
+}
+
+.container2{
+    background-color: white;
+    color:black;
+    width:30%;
+    margin-left:20px;
+    margin-top: 49px;
+    height: 500px;
+}
+
+.container2 h2{
+    text-align: center;
+    padding-right: 60px;
+}
+
+.container2 img{
+    width:40%;
+    margin-left:85px;
+}
+
+
+cite{
+    float: right;
+    margin-right: 50px;
+}
+
+.container3{
+    margin-left:20px;
+    margin-top: 49px;
+    background-color: white;
+    color:black;
+    width:31.5%;
+}
+.container3 p,h2{
+    margin-left: 50px;
+}
 
 
 
